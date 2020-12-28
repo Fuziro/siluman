@@ -1,13 +1,9 @@
 Installasi:
 apt update && apt upgrade
 pkg update
-pkg install git
-pkg install python
-git clone https://github.com/Fuziro/stres
-ls
-cd stres
-git pull
-pip install --upgrade pip
-pip install requests
-pip install mechanize
-python tembak.py
+pkg install python2
+git clone https://github.com/Fuziro/
+cd MDSpammers
+pip2 install requests
+python2 main.py
+```
